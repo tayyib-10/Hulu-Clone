@@ -1,5 +1,5 @@
 import Image from "next/image";
-import headerItem from './headerItem'
+import HeaderItem from './HeaderItem'
 import {
   HomeIcon,
   UserIcon,
@@ -13,12 +13,12 @@ function Header() {
   return (
     <header className='flex flex-col sm:flex-row m-5 justify-between items-center h-auto'>
       <div className="flex flex-grow justify-evenly max-w-2xl">
-        <headerItem title='HOME' Icon={HomeIcon} />
-        <headerItem title='TRENDING' Icon={LightningBoltIcon} />
-        <headerItem title='VERIFIED' Icon={BadgeCheckIcon} />
-        <headerItem title='COLLECTIONS' Icon={CollectionIcon} />
-        <headerItem title='SEARCH' Icon={SearchIcon} />
-        <headerItem title='ACCOUNT' Icon={UserIcon} />
+        <HeaderItem title='HOME' Icon={HomeIcon} />
+        <HeaderItem title='TRENDING' Icon={LightningBoltIcon} />
+        <HeaderItem title='VERIFIED' Icon={BadgeCheckIcon} />
+        <HeaderItem title='COLLECTIONS' Icon={CollectionIcon} />
+        <HeaderItem title='SEARCH' Icon={SearchIcon} />
+        <HeaderItem title='ACCOUNT' Icon={UserIcon} />
       </div>
       <Image 
         className='object-contain'
