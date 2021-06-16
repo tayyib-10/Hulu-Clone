@@ -6,7 +6,7 @@ import {
   SearchIcon,
   LightningBoltIcon,
   CollectionIcon,
-  BadgeCheckIcon
+  BadgeCheckIcon,
 } from '@heroicons/react/outline'
 
 function Header() {
@@ -18,7 +18,8 @@ function Header() {
         <HeaderItem title='VERIFIED' Icon={BadgeCheckIcon} />
         <HeaderItem title='COLLECTIONS' Icon={CollectionIcon} />
         <HeaderItem title='SEARCH' Icon={SearchIcon} />
-        <HeaderItem title='ACCOUNT' Icon={UserIcon} />
+        <HeaderItem title='Tayyib' Icon={UserIcon} />
+
       </div>
       <Image 
         className='object-contain'
